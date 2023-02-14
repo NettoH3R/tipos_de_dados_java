@@ -32,5 +32,8 @@ public class OperadorCalc {
         System.out.println("O resultado da Multiplição é: " + mult);
         System.out.println("O resultado da Divisão é: " + div);
         System.out.println("O Resto da Divisão é: " + resto);
+
+        entrada1.close();
+        entrada2.close();
     }
 }
