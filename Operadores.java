@@ -29,7 +29,8 @@ public class Operadores {
 
         System.out.println("a Soma dos números é: " + soma);
 
-
+        entrada.close();
+        entrada2.close();
 
         
     }
