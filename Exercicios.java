@@ -38,12 +38,10 @@ public class Exercicios {
 
         System.out.println("Exercicio 4");
 
-
         for (int fatNum = 10; fatNum >= 0; fatNum--) {
             int fatResult = 1;
 
             for (int fat = fatNum; fat > 1; fat--) {
-                
 
                 if (fat == 0) {
                     fatResult = 1;
@@ -52,7 +50,7 @@ public class Exercicios {
                     fatResult = fat * fatResult;
                 }
             }
-            
+
             System.out.println(fatNum + "! = " + fatResult);
         }
     }
