@@ -4,11 +4,11 @@ public class BalancoTrimestral {
         int gastosJaneiros = 15000;
         int gastosFevereiro = 23000;
         int gastosMarco = 17000;
-        int gastosGerais = gastosJaneiros + gastosFevereiro + gastosMarco; 
+        int gastosGerais = gastosJaneiros + gastosFevereiro + gastosMarco; // soma dos valores
 
-        System.out.println("Os gastos Gerais foram de: " + gastosGerais + " reais");
+        System.out.println("Os gastos trimestrais foram de: " + gastosGerais + " reais");
         
-        double mediaMensal = gastosGerais / 3;
+        double mediaMensal = gastosGerais / 3; // média aritimética
 
         System.out.println("A média mensal foi de: " + mediaMensal + " reais");
 
